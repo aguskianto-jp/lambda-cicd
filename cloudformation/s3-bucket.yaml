@@ -22,6 +22,6 @@ Resources:
           Value: GithubActionzTesting
   
   Outputs:
-    BucketName:
+    CreatedBucketName:
       Description: 'Name of created S3 Bucket'
       Value: !Ref MyS3Bucket
