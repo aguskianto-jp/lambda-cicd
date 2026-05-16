@@ -28,7 +28,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-access-secret-keys: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-secret-access-keys: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-northeast-1
     
     - name: Deploy Lambda Function # zip lambda dir and update lambda function
